@@ -1,0 +1,31 @@
+Image shadow and border.
+
+Added the following to style-zero.css
+
+.img-shadow {
+   margin: 10px;
+   float:right;
+   background: url(../images/trans-shadow.png) no-repeat bottom right;
+}
+
+.img-shadow img {
+    display: block; /* IE won't do well without this */
+    background-color: #fff; /* Background color of the border created by the padding */
+    border: 1px solid #cecece; /* A 1 pixel greyish border is applied to the white border created by the padding */
+    margin: -6px 6px 6px -6px;
+    padding: 5px;
+    float: left;
+}
+
+.img-shadow p {
+    padding: -6px 6px 6px -6px;
+    text-align: center;
+    font-style: italic;
+
+
+Save the CSS, and call it in your webpage file through the following HTML codes.
+
+<div class="img-shadow">
+  <img src="images/fitzroy.jpg" alt="My picture alt" title="My picture title" />
+  <p>Every picture deserves a good caption. Thankfully with this method you can give it one.</p>
+</div>
