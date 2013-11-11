@@ -55,3 +55,48 @@ projects[redirect][version] = 1.0-rc1
 projects[redirect][type] = "module"
 projects[superfish][version] = 1.9
 projects[superfish][type] = "module"
+projects[tableofcontents][version] = 1.x-dev
+projects[tableofcontents][type] = "module"
+projects[tagclouds][version] = 1.9
+projects[tagclouds][type] = "module"
+projects[talk][version] = 1.0
+projects[talk][type] = "module"
+projects[taxonomy_block][version] = 1.4
+projects[taxonomy_block][type] = "module"
+projects[textformatter][version] = 1.3
+projects[textformatter][type] = "module"
+projects[token][version] = 1.5
+projects[token][type] = "module"
+projects[top_searches][version] = 1.0
+projects[top_searches][type] = "module"
+projects[views][version] = 3.7
+projects[views][type] = "module"
+projects[views_slideshow][version] = 3.0
+projects[views_slideshow][type] = "module"
+projects[webform][version] = 3.19
+projects[webform][type] = "module"
+projects[wikitools][version] = 1.0-alpha1
+projects[wikitools][type] = "module"
+projects[wysiwyg][version] = 2.2
+projects[wysiwyg][type] = "module"
+projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][type] = "module"
+
+  
+
+; Themes
+; --------
+;projects[bloggbuzz][type] = "theme"
+;projects[bloggbuzz][version] = 1.0-rc2
+  
+  
+; Libraries
+; ---------
+:libraries[jquery][download][type] = "file"
+:libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+:libraries[jqueryui][download][type] = "file"
+:libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
+
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
+libraries[profiler][destination] = "libraries"
